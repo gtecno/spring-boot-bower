@@ -1,0 +1,7 @@
+co\agileventure\cloud\spring\boot\bower\BowerController.class
+co\agileventure\cloud\spring\resource\MovieResource.class
+co\agileventure\cloud\spring\entidad\Genre.class
+co\agileventure\cloud\spring\boot\bower\BowerAplicationInit.class
+co\agileventure\cloud\spring\service\MovieService.class
+co\agileventure\cloud\spring\repository\MovieRepository.class
+co\agileventure\cloud\spring\entidad\Movie.class

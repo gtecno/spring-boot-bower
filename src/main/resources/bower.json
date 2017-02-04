@@ -1,0 +1,20 @@
+{
+  "name": "bower-spring",
+  "authors": [
+    "Gabriel Calvo <gabriel.calvo@zabud.co>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
