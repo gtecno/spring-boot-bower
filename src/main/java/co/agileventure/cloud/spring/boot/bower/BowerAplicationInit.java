@@ -26,7 +26,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author Gabriel Calvo
  */
 @SpringBootApplication
-//@RestController
 @Controller
 public class BowerAplicationInit  extends SpringBootServletInitializer {
 

@@ -18,8 +18,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class BowerController {
 
     @RequestMapping("/hola")
-    public String hello(Model model, @RequestParam(value = "name", required = false, defaultValue = "World") String name) {
+    public String hello(Model model, @RequestParam(value = "name", required = false, defaultValue = "World") String name
+    , @RequestParam(value = "descripcion", required = false, defaultValue = "Mira las estrellas") String descripcion) {
         model.addAttribute("name", name);
+        model.addAttribute("descripcion", descripcion);
         return "hello";
     }
 }
